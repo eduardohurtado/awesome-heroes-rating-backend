@@ -1,0 +1,27 @@
+{
+  "name": "awesome-heroes-rating-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node api/index.js"
+  },
+  "keywords": [],
+  "author": "Eduardo Hurtado",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "express": "^4.17.1",
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.10.8",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}

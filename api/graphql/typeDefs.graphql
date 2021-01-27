@@ -1,0 +1,31 @@
+type Query {
+  ping: String!
+  heroes: [Heroe]
+}
+
+type Mutation {
+  createHeroe(input: HeroeInput): Heroe
+  deleteHeroe(_id: ID): Heroe
+  updateHeroe(_id: ID, input: HeroeInput): Heroe
+}
+
+type Subscription {
+  heroeSent: Heroe
+}
+
+type Heroe {
+  _id: ID
+  name: String!
+  description: String!
+  votesPositive: Int!
+  votesNegative: Int!
+  moreInfoURL: String!
+}
+
+input HeroeInput {
+  name: String!
+  description: String!
+  votesPositive: Int!
+  votesNegative: Int!
+  moreInfoURL: String!
+}
