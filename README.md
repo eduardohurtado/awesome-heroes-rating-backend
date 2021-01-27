@@ -1,6 +1,6 @@
-# REACT ARTICLES GRAPHQL API
+# AWESOME HEROES RATING GRAPHQL API
 
-This is the GraphQL API database [MongoDB](https://www.mongodb.com/) conection layer developed for the main project [REACT ARTICLES](https://github.com/eduardohurtado/react-articles), this API has it's own auto documentation, please enjoy.
+This is the GraphQL API database [MongoDB](https://www.mongodb.com/) conection layer developed for the main project [AWESOME HEROES RATING](https://github.com/eduardohurtado/), this API has it's own auto documentation, please enjoy.
 
 ![GraphQL](https://live.staticflickr.com/65535/50433761867_e9438cd0ff_o.jpg)
 

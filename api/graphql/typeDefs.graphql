@@ -19,6 +19,8 @@ type Heroe {
   description: String!
   votesPositive: Int!
   votesNegative: Int!
+  heroPhotoURL: String!
+  heroBannerURL: String!
   moreInfoURL: String!
 }
 
@@ -27,5 +29,7 @@ input HeroeInput {
   description: String!
   votesPositive: Int!
   votesNegative: Int!
+  heroPhotoURL: String!
+  heroBannerURL: String!
   moreInfoURL: String!
 }
